@@ -1,0 +1,36 @@
+header{
+background-color: black;
+color:aliceblue;
+padding: 10px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  nav{
+    background-color: red;
+    padding: 3px;
+    box-shadow: 2px 2px 2px black;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: dimgray;
+}
+article{
+    background-color: lightgray;
+    padding: 5px;
+}
+article > aside{
+    background-color: blanchedalmond;
+}
+footer{
+    background-color: black;
+    color: beige ;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px;
+}
